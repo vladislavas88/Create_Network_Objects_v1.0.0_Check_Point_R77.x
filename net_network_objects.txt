@@ -1,0 +1,16 @@
+create network ln_10.1.1.0_usr
+modify network_objects ln_10.1.1.0_24_usr ipaddr 10.1.1.0
+modify network_objects ln_10.1.1.0_24_usr 255.255.255.0
+modify network_objects ln_10.1.1.0_24_usr color 'forest green'
+create network ln_10.2.2.0_usr
+modify network_objects ln_10.2.2.0_25_usr ipaddr 10.2.2.0
+modify network_objects ln_10.2.2.0_25_usr 255.255.255.128
+modify network_objects ln_10.2.2.0_25_usr color 'forest green'
+create network ln_10.3.3.0_usr
+modify network_objects ln_10.3.3.0_26_usr ipaddr 10.3.3.0
+modify network_objects ln_10.3.3.0_26_usr 255.255.255.192
+modify network_objects ln_10.3.3.0_26_usr color 'forest green'
+create network ln_10.4.4.0_usr
+modify network_objects ln_10.4.4.0_27_usr ipaddr 10.4.4.0
+modify network_objects ln_10.4.4.0_27_usr 255.255.255.224
+modify network_objects ln_10.4.4.0_27_usr color 'forest green'
